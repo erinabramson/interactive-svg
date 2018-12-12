@@ -10,7 +10,7 @@
 
 #left-eye,
 #right-eye {
-  animation: eyeMove 3s linear infinite alternate
+  animation: eyeMove 3s linear infinite alternate;
 }
 
 @keyframes eyeMove {
@@ -22,4 +22,5 @@
   100% {
     transform: translateX(-7.5px);
   }
+
 }
